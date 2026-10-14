@@ -11,7 +11,7 @@ package part00;
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+        System.out.println("Hello from De'Kyii");
         System.out.println("If you can read this, your setup works.");
     }
 }
