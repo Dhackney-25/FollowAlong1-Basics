@@ -14,15 +14,11 @@ package part01;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Main {
+    //This line starts the code
     public static void main(String[] args){
-        // This is a comment
-        /*
-        This
-        is
-        a
-        comment
-         */
+        // This prints out the line with a tab and add a new line
         System.out.println("\t\"I love ice cream\"\n");
+        //This prints out the line with a backslash
         System.out.println("It's really good\\");
     }
 
