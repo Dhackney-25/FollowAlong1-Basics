@@ -7,34 +7,50 @@ package part02;
 // SECTION C — Stretch. Do Stretch A, then Stretch B. The README says what each one should print.
 //
 // There is no main method here yet. Typing it is part of the stretch.
-
+/* MY GUESS:
+   ...
+*/
 public class Stretch {
     public static void main(String[] args){
-        int x;
-        x = 123;
-        System.out.println(x);
-        System.out.println("x");
-        System.out.println("My number is " + x);
-
-        long debt = 3000000000L;
-        System.out.println(debt);
-
-        byte b = 100;
+        int a = 7;
+        double b = 7;
+        System.out.println(a);
         System.out.println(b);
+        System.out.println("a + b");
+        System.out.println("a: " + a);
+        System.out.println("" + a + a);
+        System.out.println(a + a + "!");
+        char c = 'A';
+        System.out.println(c);
+        boolean on =true;
+        System.out.println(on);
 
-        float y = 3.14f;
-        System.out.println(y);
+        String name = "De'Kyii";
+        int timeDone = 2;
+        double gpa = 3.0;
+        boolean athletic = true;
 
-        double y2 = 3.14;
-        System.out.println(y2);
+        System.out.println("name: " + name);
+        System.out.println("Current college years done: " + timeDone);
+        System.out.println("gpa: " + gpa);
+        System.out.println("athletic: " + athletic);
 
-        boolean z = true;
-        System.out.println(z);
+        char favoriteLetter = 'A';
+        int yearsInCollege = 4;
+        double classRating = 5.0;
+        boolean small = false;
+        String state = "Washington D.C";
+        System.out.println("I'm a student from " + state + " who attends DSU, doing " + yearsInCollege + "years. I rate my classes an "+ classRating + " With a grade average of an "+ favoriteLetter + ". Considered small: "+ small);
 
-        char symbol = '@';
-        System.out.println(symbol);
+        String city = "Dover";
+        long people = 4000000000L;
+        char grade = 'B';
+        float temp = 72.5f;
+        System.out.println(city + " " + people + " " + grade + " " + temp);
 
-        String name = "Bro";
-        System.out.println("Hello" + name);
+
+
+
+
     }
 }
