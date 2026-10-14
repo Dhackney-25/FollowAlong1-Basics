@@ -12,8 +12,37 @@ package part02;
 //    Type everything else yourself.
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
-//    saying in YOUR OWN WORDS what that line does. The README shows an example.
+//    saying in
+//  YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Variables {
+    public static void main(String[] args){
+        int x;
+        x = 123;
+        System.out.println(x);
+        System.out.println("x");
+        System.out.println("My number is " + x);
+
+        long debt = 3000000000L;
+        System.out.println(debt);
+
+        byte b = 100;
+        System.out.println(b);
+
+        float y = 3.14f;
+        System.out.println(y);
+        double y2 = 3.14;
+        System.out.println(y2);
+
+        boolean z = true;
+        System.out.println(z);
+
+        char symbol = '@';
+        System.out.println(symbol);
+
+        String name = "Bro";
+        System.out.println("Hello " + name);
+
+    }
 
 }
