@@ -17,18 +17,27 @@ import java.util.Scanner;
 
 public class UserInput {
     public static void main(String[] args){
+        // Creates a Scanner to read input from the keyboard.
     Scanner scanner = new Scanner(System.in);
-
+    //Asks the user to enter their name.
     System.out.println("What is your name?");
+    // Reads the user's name and stores it in name.
     String name = scanner.nextLine();
+    // Asks the user to enter their age.
     System.out.println("How old are you?");
+    // Reads the user's age as a whole number.
     int age = scanner.nextInt();
+    // Clears the leftover newline after reading the age.
     scanner.nextLine();
+    // Asks the user for their favorite food.
     System.out.println("What is your favorite food?");
+    // Reads the favorite food and stores it in food.
     String food = scanner.nextLine();
-
+    // Prints a greeting using the user's name.
     System.out.println("Hello "+ name);
+        // Prints the user's age.
     System.out.println("You are " + age + " years old");
+        // Prints the user's favorite food.
     System.out.println("You like " + food);
 
 

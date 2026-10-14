@@ -16,17 +16,25 @@ package part03;
 
 public class Swap {
     public static void main(String[] args){
+        // Creates a String variable x and stores "water".
         String x = "water";
+        // Creates a String variable y and stores "Kool-Aid".
         String y = "Kool-Aid";
+        // Prints the current value of x.
         System.out.println("x: "+ x);
+        // Prints the current value of y.
         System.out.println("y: "+ y);
+        // Declares a temporary String variable to help swap the values.
         String temp;
-
+        // Saves the value of x ("water") in temp.
         temp = x;
+        // Assigns the value of y ("Kool-Aid") to x.
         x = y;
+        // Assigns the original value of x ("water") to y.
         y = temp;
-
+        // Prints the new value of x, which is "Kool-Aid".
         System.out.println("x: "+ x);
+        // Prints the new value of y, which is "water".
         System.out.println("y: "+ y);
 
     }
