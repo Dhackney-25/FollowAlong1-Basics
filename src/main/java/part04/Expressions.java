@@ -16,9 +16,11 @@ package part04;
 
 public class Expressions {
     public static void main(String[] args){
+        // Stores 10 in a double variable
         double friends = 10;
-
+        // Converts friends to a double and divides by 3
         friends = (double) friends / 3;
+        // Prints the result
         System.out.println(friends);
 
 

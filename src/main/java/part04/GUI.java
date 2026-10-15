@@ -18,18 +18,23 @@ import javax.swing.JOptionPane;
 
 public class GUI {
     public static void main(String[] args){
+        // Stores 10 in a double variable
         double friends = 10;
-
+        // Divides friends by 3 using decimal division
         friends = (double) friends / 3;
+        // Prints the result in the console
         System.out.println(friends);
-
+        // Asks the user to enter their name
         String name = JOptionPane.showInputDialog("Enter your name");
+        // Displays a greeting using the user's name
         JOptionPane.showMessageDialog(null,"Hello "+ name);
-
+        // Asks the user for their age and converts the input to an integer
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        // Displays the user's age
         JOptionPane.showMessageDialog(null, "You are " + age + " Years old." );
-
+        // Asks the user for their height and converts the input to a double
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        // Displays the user's height in centimeters
         JOptionPane.showMessageDialog(null,"You are" + height + "cm tall.");
 
 
