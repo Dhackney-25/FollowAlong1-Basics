@@ -1,4 +1,5 @@
 package part05;
+import java.util.Random;
 
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3850s
 //        random numbers start at about 64:10 — stop at about 68:28
@@ -16,5 +17,20 @@ package part05;
 //    saying in YOUR OWN WORDS what that line does.
 
 public class RandomNumbers {
+    public static void main(String[] args){
+        Random random = new Random();
+
+        int x = random.nextInt(6) +1;
+        System.out.println(x);
+
+        double y = random.nextDouble();
+        System.out.println(y);
+
+        boolean z = random.nextBoolean();
+        System.out.println(z);
+
+
+    }
+
 
 }
