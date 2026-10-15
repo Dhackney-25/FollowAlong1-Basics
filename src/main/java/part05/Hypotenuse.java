@@ -17,17 +17,27 @@ import java.util.Scanner;
 
 public class Hypotenuse {
     public static void main(String[] args){
+        // Declares a variable for side x
         double x;
+        // Declares a variable for side y
         double y;
+        // Declares a variable for the hypotenuse
         double z;
+        // Creates a Scanner to read user input
         Scanner scanner = new Scanner(System.in);
-
+        // Asks the user to enter side x
         System.out.println("Enter side x: ");
+        // Reads the value of side x
         x = scanner.nextDouble();
+        // Asks the user to enter side y
         System.out.println("Enter side y: ");
+        // Reads the value of side y
         y = scanner.nextDouble();
+        // Calculates the hypotenuse using the Pythagorean theorem
         z = Math.sqrt((x * x) + (y * y));
+        // Displays the hypotenuse
         System.out.println(" The hypotenuse is: " + z);
+        // Closes the Scanner
         scanner.close();
     }
 

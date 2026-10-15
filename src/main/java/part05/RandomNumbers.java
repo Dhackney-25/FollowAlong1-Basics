@@ -18,15 +18,19 @@ import java.util.Random;
 
 public class RandomNumbers {
     public static void main(String[] args){
+        // Creates a Random object to generate random values
         Random random = new Random();
-
+        // Generates a random integer from 1 to 6
         int x = random.nextInt(6) +1;
+        // Prints the random integer
         System.out.println(x);
-
+        // Generates a random decimal from 0.0 (inclusive) to 1.0 (exclusive)
         double y = random.nextDouble();
+        // Prints the random decimal
         System.out.println(y);
-
+        // Generates a random boolean value (true or false)
         boolean z = random.nextBoolean();
+        // Prints true or false
         System.out.println(z);
 
 
