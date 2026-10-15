@@ -1,4 +1,5 @@
 package part04;
+import javax.swing.JOptionPane;
 
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3191s
 //        starts at about 53:11 — stop at about 58:10, at "in conclusion ladies and gentlemen"
@@ -16,5 +17,30 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. That includes the import line.
 
 public class GUI {
+    public static void main(String[] args){
+        double friends = 10;
 
-}
+        friends = (double) friends / 3;
+        System.out.println(friends);
+
+        String name = JOptionPane.showInputDialog("Enter your name");
+        JOptionPane.showMessageDialog(null,"Hello "+ name);
+
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        JOptionPane.showMessageDialog(null, "You are " + age + " Years old." );
+
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        JOptionPane.showMessageDialog(null,"You are" + height + "cm tall.");
+
+
+
+
+
+
+        }
+
+
+
+    }
+
+
